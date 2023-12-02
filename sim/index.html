@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venda de Cantores</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Venda de Produtos</title>
 </head>
 <body>
-    <h1>Gustavo Lima</h1>
-    <img id="images" src="images.jpeg">
+    <div class="product">
+        <img src="tenis.jpg" alt="Nike Air Max SC">
+        <h2>Tênis Nike Air Max SC Masculino</h2>
+        <p>Descrição
+ O Tênis Nike Air Max SC Masculino é para homens que buscam conforto no dia a dia. Os materiais de tecido e a tela se combinam em uma construção durável que é ventilada e confortável de usar o dia todo. O solado em EVA e a tecnologia air criam uma rica mistura de materiais trazendo durabilidade e conforto ao calçado.
+        </p>
+        <p class="price">R$ 699,99</p>
+        <button onclick="adicionarAoCarrinho()">Comprar</button>
+    </div>
 
-    <h2>Michel Teló</h2>
-    <img id="Michel" src="michel.jpeg">
+    <div id="carrinho">
+        <h3>Carrinho de Compras</h3>
+        <ul id="lista-carrinho"></ul>
+        <p id="total">Total: R$ 699,00</p>
+    </div>
 
-    <h3>Wesley Safadão</h3>
-    <img id="Wesley" src="wesley.jpeg">
-    
 </body>
 </html>
